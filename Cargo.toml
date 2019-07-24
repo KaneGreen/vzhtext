@@ -1,0 +1,17 @@
+[package]
+name = "vzhtext"
+version = "0.1.0"
+authors = ["KaneGreen <737445366KG@Gmail.com>"]
+edition = "2018"
+license = "GPL-3.0"
+description = "Rearrange Chinese text to a vertical text read from top to bottom, right-to-left."
+repository = "https://github.com/KaneGreen/vzhtext"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[profile.release]
+codegen-units = 1
+lto = true
