@@ -1,10 +1,10 @@
-# vzhtext: Vertical Zh-cn Text
-# vzhtext：竖排中文文本
-## Rearrange Chinese text to a vertical text read from top to bottom, right-to-left
-## 将中文文本排版为从上往下、从右往左阅读的竖排文本
-## Helping you avoid non-strict censorship and keyword search
-## 帮助您规避轻度的审查和关键词检索
-
+# vzhtext
+## Vertical Zh-cn Text 竖排中文文本
+### Rearrange Chinese text to a vertical text read from top to bottom, right-to-left
+### 将中文文本排版为从上往下、从右往左阅读的竖排文本
+### Helping you avoid non-strict censorship and keyword search
+### 帮助您规避轻度的审查和关键词检索
+----
 ## Compile 编译
 ### Need the [Rust toolchain] 需要[Rust工具链]
 ### `$ cargo build --release`
@@ -26,7 +26,7 @@ $ vzhtext 指定每列字数的数字参数可前可后 4
 后数的每
 　可数列
 $ vzhtext 两段中文将会被 5 拼在一起
- 会两
+起会两
 　被段
 　拼中
 　在文
